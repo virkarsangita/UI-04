@@ -1,0 +1,9 @@
+@import '../../src/Assests/Scss/Variable.scss';
+
+
+.demo {
+  text-align: center;
+  color:$secondaryColor;
+  background-color: $primaryBgColor;
+  margin-top: 10px;
+}

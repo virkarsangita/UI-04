@@ -1,0 +1,43 @@
+.leftsection{
+    width: 20%;
+    height: 100px;
+    float: left;
+    background-color:white;
+}
+.logocss {
+    height: 90px;
+    width: 200px;
+    margin: 4px;
+    margin-left: 40px;
+}
+.rightsection{
+    height: 100px;
+    width: 80%;
+    float: left;
+    background-color: white;
+   
+}
+
+.Navbar1{
+    list-style-type: none;
+}
+
+.Navbar1 li{
+    margin: 24px 0px 10px 0px;
+}
+
+.Navbar1 li a{
+    text-decoration: none;
+   color: black;
+   float: left;
+   padding: 10px;
+   font-weight: 500;
+   border-bottom: 2px solid blueviolet;
+   margin-left: 10px;
+}
+
+.Navbar1 li a:hover{
+    color: white;
+    background-color: #fff700;
+}
+
