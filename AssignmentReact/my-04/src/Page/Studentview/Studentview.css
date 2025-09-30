@@ -1,0 +1,46 @@
+.Card{
+width: 70%; 
+float: right;
+margin-right: 60px;
+}
+
+.DEMO{
+    width: 45%;
+    margin-top: 10px;
+   
+}
+
+.BBtn{
+    background-color: yellow;
+    margin-right: 20px;
+    color: black;
+    border-radius: 5px;
+    border-color: yellow;
+    margin-top: -600px;
+}
+
+.BBtn:hover{
+    background-color: blue;
+    color: white;
+}
+
+.Immag{
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+.TEXT{
+    margin-left: -250px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.bttn{
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #14f214;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid #14f214;
+}

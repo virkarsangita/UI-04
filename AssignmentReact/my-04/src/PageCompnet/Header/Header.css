@@ -1,0 +1,43 @@
+
+.left{
+    height: 100px;
+    width: 20%;
+    float: left;
+}
+.textCSS{
+    height: 100px;
+    width: 250px;
+}
+
+.right{
+    height: 100px;
+    width: 80%;
+    background-color: aqua;
+    float: left;
+}
+
+.LeftSection{
+    height: 450px;
+    width: 20%;
+    float: left;
+   background-color: green;
+}
+
+.navbarA li{
+    list-style-type: none;
+    padding: 10px;
+      margin: 20px;
+
+}
+
+.navbarA li a{
+    color: Black;
+
+text-decoration: none;
+}
+.RightSection{
+    height: 500px;
+    width: 80%;
+    float: left;
+    background-color: yellow;
+}
