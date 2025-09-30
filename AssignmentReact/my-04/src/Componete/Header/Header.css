@@ -1,0 +1,36 @@
+.leftsection{
+    height: 150px;
+    width: 20%;
+    float: left;
+    background-color: white;
+}
+
+.textCss{
+    height: 130px;
+    width: 90%;
+    margin: 10px 0px 15px 6px;
+}
+.rightsection{
+    height: 150px;
+    width: 80%;
+    float: left;
+    background-color:white;
+}
+
+.NavbarA li{
+        list-style-type: none;
+}
+
+.NavbarA li a{
+    color:black;
+    text-decoration: none;
+   float: left;
+   padding: 25px;
+   border-bottom: 2px solid purple;
+   font-weight: 500;
+   margin-left: 10px;
+}
+
+.NavbarA li a:hover{
+    color: darkblue;
+}

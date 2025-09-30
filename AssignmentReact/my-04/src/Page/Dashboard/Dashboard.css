@@ -1,0 +1,31 @@
+.LeftSection{
+    height: 450px;
+    width: 20%;
+    float: left;
+    background-color:white;
+}
+
+.navbarA li{
+    list-style-type: none;
+    padding: 10px;
+      margin: 20px;
+
+}
+
+.navbarA li a{
+    color: Black;
+
+text-decoration: none;
+}
+.RightSection{
+    height: 500px;
+    width: 80%;
+    float: left;
+    background-color: yellow;
+}
+
+.Text{
+    height: 500px;
+    width: 100%;
+    float: left;
+}
