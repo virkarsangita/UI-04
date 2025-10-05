@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Event Row</title>
+
+    <!---------------------------Bootstrap  Link---------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <button onclick="frow1()">Click Me</button>
+    <div class="m-3">
+        <div id="r" class="text-center bg-primary text-white mt-4"></div><br>
+        <div id="r1" class="text-center mt-4"></div><br>
+        <div id="r2" class="text-center mt-4"></div><br>
+        <div id="r3" class="text-center mt-4"></div><br>
+        <div id="r4" class="text-center mt-4"></div><br>
+        <p id="ans" class="text-center mt-4"></p>
+    </div>
+
+    <script>
+
+        /***********************************************1st********************************************************/
+        function frow1() {
+
+            document.getElementById('r').innerHTML = 'Welcome';
+            document.getElementById('r1').style.display = 'block';
+            document.getElementById('r1').innerHTML = 'Name::<input type="text id="name" > Email::<input type="email" id="email"> Mobile::<input type="mobile" id="mobile"> &nbsp <button onclick="frow2()">ADD</button>&nbsp<button onclick="remove4()">Remove</button>'
+        }
+
+        function frow2() {
+            document.getElementById('r2').style.display = 'block';
+            document.getElementById('r2').innerHTML = 'Gender::<input type="text" id="gen">DOB::<input type="dob" id="dob">Course::<input type="text" id="course"> &nbsp<button onclick="frow3()">ADD</button>&nbsp<button onclick="remove3()">Remove</button>'
+        }
+
+        function frow3() {
+            document.getElementById('r3').style.display = 'block';
+            document.getElementById('r3').innerHTML = 'Pincode::<input type="text" id="pin">Address::<input type ="text" id="add">City::<input type="text" id="city">&nbsp<button onclick="frow4()">ADD</button>&nbsp<button onclick="remove2()">Remove</button>'
+        }
+
+        function frow4() {
+            document.getElementById('r4').style.display = 'block';
+            document.getElementById('r4').innerHTML = '<button id="btn" onclick="fr1()">Submit</button> <button onclick=remove1() ">Remove</button>'
+        }
+
+        /**********************************2nd***********************************/
+        function remove1() {
+        //document.getElementById('r4').remove();
+        document.getElementById('r4').style.display = 'none';
+        }
+
+        function remove2() {
+            document.getElementById('r3').style.display = "none";
+        }
+
+        function remove3() {
+            document.getElementById('r2').style.display = "none";
+        }
+
+        function remove4() {
+            document.getElementById('r1').style.display = "none";
+        }
+
+
+        /************************************3rd******************************************/
+
+        function fr1() {
+            //alert('success');
+            var name = document.getElementById('name').value;
+            // var btn = document.getElementById('btn').value;
+            document.getElementById('ans').innerText= "Name:" + " " + name; /// check here
+
+
+
+        //var email = document.getElementById('email').value;
+        }
+    </script>
+
+</body>
+
+</html>

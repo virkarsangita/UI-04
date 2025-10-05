@@ -1,0 +1,12 @@
+.bttn{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 1px;
+    margin: auto;
+    display: block;
+}
+
+.bttn:hover{
+    background-color: darkgoldenrod;
+    
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>this is condition</title>
+
+     <!---------------------------Bootstrap  Link---------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div class="container">
+    <div id="btn" class="mt-5 "></div>
+    <div id="redDiv"></div>
+    <div id="yellowDiv"></div>
+    <div id="purpleDiv"></div>
+    <div id="blueDiv"></div>
+    </div>
+<script>
+    var x=100;
+    //(x<=50 ? document.write('true'):document.write('false'));
+
+    var A ='<div style="width:100% ; height:200px; background-color:red ; margin-top:10px" ></div>'
+     var B='<div style="width:100% ; height:200px; background-color:yellow ;margin-top:10px"></div>'
+      var C='<div style="width:100% ; height:200px; background-color:purple ;margin-top:10px"></div>'
+      var D='<div style="width:100% ; height:200px; background-color:blue ;margin-top:10px"></div>'
+
+     document.getElementById('btn').innerHTML=`
+     <input type='text' id="color">&nbsp &nbsp<button onclick="abc()">click here</button>
+     `
+
+     function abc(){
+
+        var color=document.getElementById('color').value;
+
+      // ( color==='red'? document.write('true'):document.write('false'));
+
+      if(color==='red'){
+        document.getElementById('redDiv').innerHTML=A;
+      }
+
+      else if(color==='yellow'){
+        document.getElementById('yellowDiv').innerHTML=B;
+      }
+        
+      else if(color==='purple'){
+        document.getElementById('purpleDiv').innerHTML=C;
+      }
+
+      else if(color==='blue'){
+        document.getElementById('blueDiv').innerHTML=D;
+      }
+    else{
+        document.write('this is not color');
+    }
+    
+     }
+</script>
+</body>
+</html>
