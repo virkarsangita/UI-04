@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>Arrowfunction</title>
+</head>
+<body>
+<script>
+    fun1=(p,q)=>{
+        console.log('Welcome ');
+        document.write(p+q);
+    }
+    fun1(10,20);
+
+    fun1=(a,b)=>{
+        console.log('Hello arrow')
+        document.write(a+b);
+    }
+    fun1(40,40);
+
+    /*******************local scope***global scope****************************/
+    var x=200;
+    var y=300; //local scope
+    var ans =x+y;
+    fun=()=>{
+        console.log(ans) //global scope
+    }
+    fun();
+</script>
+</body>
+</html>
