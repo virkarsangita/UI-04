@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>this is scope</title>
+</head>
+<body>
+<script>
+    /**********************keyword*********************/
+
+    var x=20;
+    var y=50;
+    fun=()=>{
+        console.log(x);
+    }
+    console.log(y);
+    fun();
+
+    /******************block-scope****************/
+
+    fun1=()=>{
+        debugger
+        let a=10;
+        console.log(a);
+        {
+        let a=20;
+        console.log(a);
+        }
+    }
+    fun1();
+
+    /***************const keyword******************/
+
+    const fun2=()=>{
+        console.log('this is const fun function')
+    }
+    fun2();
+</script>
+</body>
+</html>
