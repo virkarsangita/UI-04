@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './Course.css';
 const Course = () => {
   return (
     <>
-        <div className='container mt-3'>
+        <div className='container mt-3 course'>
             <div className='row'>
                 <div className='col-md-3'>
                     <div className='card shadow'>
