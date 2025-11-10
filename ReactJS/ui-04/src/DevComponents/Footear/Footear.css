@@ -1,0 +1,8 @@
+.foot{
+    background-color: chartreuse;
+    color: white;
+    text-align: center;
+    width: 100%;
+    float: left;
+    height: 100px;
+}

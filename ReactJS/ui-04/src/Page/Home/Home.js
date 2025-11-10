@@ -1,28 +1,22 @@
 import './Home.css';
-import Header  from '../../Compoents/Header/Header';
-import Footer from '../../Compoents/Footear/Footear';
+import Header from '../../Compoents/Header/Header';
+import Footear from '../../Compoents/Footear/Footear';
 import Course from '../../Compoents/Course/Course';
+
 const Home=()=>{
     return<>
-    <div className="header">
+    <div className='header'>
         <Header/>
     </div>
 
-    <div className="body">
-    Welcome TO Home Page
+    <div className='body'>
+       <Course/>
     </div>
 
-    <div>
-        <div className='coursesection'>
-          
-           
-                <Course/>
-           
-        </div>
-    </div>
-    <div className="footer">
-        <Footer/>
+    <div className='footer'>
+        <Footear/>
     </div>
     </>
 }
+
 export default Home;

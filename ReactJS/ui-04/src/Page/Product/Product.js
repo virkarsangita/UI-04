@@ -14,13 +14,14 @@ const Product = () => {
   ];*/
 
   // ✅ Initialize state correctly
-  const [studentDetailsState, setStudentDetails] = useState(stud_Details);
+  const [studentDetails, setStudentDetails] = useState(stud_Details);
 
   const navigate = useNavigate();
-   console.log(studentDetailsState,'studentDetailsState@#####');
+   //console.log(studentDetailsState,'studentDetailsState@#####');
 
       useEffect(()=>{
          console.log('useEffect called');
+          setStudentDetails(stud_Details);
       },[])
          
          
@@ -40,14 +41,13 @@ const Product = () => {
       <h1 className='text-dark bg-danger'>Welcome To Product</h1>
 
       <div className='container'>
-        {studentDetailsState.map((item, index) => (
+        {studentDetails.slice(0,3).map((item, index) =>(
           <div className='card mt-4' key={index}>
             <div className='card-body'>
               <p><strong>Name:</strong> {item.Name}</p>
               <p><strong>Age:</strong> {item.Age}</p>
               <p><strong>Email:</strong> {item.Email}</p>
               <p><strong>Mobile:</strong> {item.mobile}</p>
-
               <button className='btn btn-primary' onClick={()=>redirect(item.id)}>view</button>
             </div>
           </div>

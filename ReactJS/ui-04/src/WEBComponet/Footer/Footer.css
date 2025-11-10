@@ -1,0 +1,11 @@
+
+.fe{
+    background-color: chocolate;
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+
+.fe h1{
+    color: white;
+}

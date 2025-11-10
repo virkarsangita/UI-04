@@ -1,0 +1,21 @@
+.let{
+    background-color: blue;
+    color: white;
+    float: left;
+    height: 100px;
+    width: 100%;
+}
+
+.Navbar1 li{
+    list-style-type: none;
+    float: left;
+}
+
+.Navbar1 li a{
+    color: white;
+    margin-top: 40px;
+    padding: 30px;
+    margin-left: 80px;
+    text-decoration: none;
+}
+
