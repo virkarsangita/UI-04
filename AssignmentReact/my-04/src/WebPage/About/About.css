@@ -1,0 +1,41 @@
+.Lee{
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+
+.Lee img{
+    height: 400px;
+    width: 90%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Rii{
+    height: 400px;
+    width: 50%;
+    float: left;
+
+}
+
+.Rii h1{
+    text-align: center;
+    padding: 40px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 20px;
+    color: orange;
+}
+
+.Rii h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.Rii p{
+    font-size: 400;
+    font-weight: 300;
+    padding: 20px;
+}

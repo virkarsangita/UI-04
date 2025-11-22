@@ -1,0 +1,7 @@
+.Foot{
+    height: 100px;
+    width: 100%;
+    float: left;
+    background-color: mediumvioletred;
+    margin-top: 10px;
+}

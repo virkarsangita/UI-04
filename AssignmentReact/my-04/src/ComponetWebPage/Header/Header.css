@@ -1,0 +1,60 @@
+
+
+.left{
+    height: 110px;
+    width: 25%;
+    float: left;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.left img{
+    height: 70px;
+    width: 100%;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+/*********************************************************************/
+
+.medi{
+    height: 110px;
+    width: 50%;
+    float: left;
+    background-color: white;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.navbar1  li{
+    list-style-type: none;
+}
+
+.navbar1 li a{
+    text-decoration: none;
+    float: left;
+    padding: 20px;
+    font-weight: 500;
+    color: black;
+    margin: 10px;
+}
+
+
+
+
+
+/*************************************************************************/
+.right{
+    height: 110px;
+    width: 25%;
+    float: left;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+
+.right img{
+    height: 40px;
+    margin: auto;
+    display: block;
+   margin-top: 40px;
+}

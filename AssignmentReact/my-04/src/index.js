@@ -1,22 +1,26 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router} from 'react-router-dom'
+import React from 'react';
+import { BrowserRouter, BrowserRouter as Router, Routes } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.js';
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 //import Home from './DeveloperGuru/Home/Home';
 
+import App from './App.js';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-<Router>
-    <App />
-    </Router>
-  </React.StrictMode>
+   
+<React.StrictMode>
+    <BrowserRouter>
+    <App/>
+    </BrowserRouter>
+</React.StrictMode>
+
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
