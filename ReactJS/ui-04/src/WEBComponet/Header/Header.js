@@ -9,7 +9,7 @@ const Header =()=>{
         <li><Link to='/Product'>Product</Link></li>
         <li><Link to='/Course' >Course</Link></li>
         <li><Link to='/Notfound'>Login</Link></li>
-        <li><Link to='/Studentdetails'>Studentdetails</Link></li>
+        <li><Link to='/Studentdetails'></Link></li>
     </ul>
     </div>
     </>

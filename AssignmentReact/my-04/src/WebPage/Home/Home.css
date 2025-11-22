@@ -1,0 +1,47 @@
+.bodysection {
+   
+    height: 600px;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.bttn{
+    padding: 5px;
+    color: white;
+    background-color: orange;
+    border: oldlace;
+}
+
+.Le {
+    height:500px ;
+    width: 50%;
+    float: left;
+    
+  
+}
+
+.Le h1{
+    text-align: center;
+    padding: 50px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 60px;
+    
+}
+
+.Le span{
+    color: yellow;
+}
+
+.Le p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.Re img{
+    height:500px ;
+    width: 50%;
+    float: left;
+   
+
+}

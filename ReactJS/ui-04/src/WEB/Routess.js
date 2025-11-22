@@ -4,6 +4,7 @@ import About from "./About/About";
 import Product from "./Product/Product";
 import Course from "./Course/Course";
 import Studentdetails from "../WEBComponet/StudentDetails/StudentDetails";
+import AddCandiate from "../WEBComponet/AddCandidate/AddCandiate";
 import Notfound from "./Notfound";
 
 const Routess=()=>{
@@ -14,6 +15,7 @@ const Routess=()=>{
             <Route path="/Product" element={<Product/>}/>
             <Route path="/Course" element={<Course/>}/>
             <Route path="/Studentdetails" element={<Studentdetails/>}/>
+            <Route path="/AddCandiate" element={<AddCandiate/>}/>
             <Route path="*"element={<Notfound/>} />
         </Routes>
         </>

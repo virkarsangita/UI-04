@@ -12,15 +12,14 @@ const Product =()=>{
         console.log('ID******',item);
         navigate('/Studentdetails');
      
-         localStorage.setItem('stud_id',JSON.stringify(item));
+        localStorage.setItem('stud_id',JSON.stringify(item));
     }
 
     useEffect(()=>{
         console.log('use effect worked.....');
         //setstudtdetails='Hello Teacher Day';
-       
-
     },[])
+    
     /*console.log(studentdetails,'studentdetails@@@@@@###');*/
     return<>
     <Header/>
