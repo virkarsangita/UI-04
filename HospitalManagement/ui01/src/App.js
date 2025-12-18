@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Routess from './WebHospital/Routess/Routess';
+
 function App() {
   return (
     <div className="App">
@@ -19,7 +21,7 @@ function App() {
         </a>
       </header>*/}
 
-      <h1>Welcome react application</h1>
+      <Routess/>
     </div>
   );
 }
