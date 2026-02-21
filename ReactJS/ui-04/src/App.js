@@ -1,11 +1,12 @@
 
 import './App.css';
-import Routess from './WEB/Routess';
+import Rout from '../../ui-04/src/DevtoolsCompnets/Rout/Rout';
+import Routesss from './Pagesss/Routesss/Routesss';
 
 function App() {
   return (
     <div className="App">
-    <Routess/>
+    <Routesss/>
     </div>
   );
 }

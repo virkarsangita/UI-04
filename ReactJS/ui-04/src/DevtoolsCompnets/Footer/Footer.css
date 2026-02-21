@@ -1,0 +1,8 @@
+
+.foot{
+    height: 50px;
+    width: 100%;
+    float: left;
+    background-color: blue;
+    margin-top: 10px;
+}

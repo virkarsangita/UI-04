@@ -1,0 +1,28 @@
+
+.A{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 25%;
+    float: left;
+}
+
+.B{
+    background-color: red;
+    float: left;
+    height: 100px;
+    width: 75%;
+}
+
+.Nabars li{
+    list-style-type: none;
+}
+
+.Nabars li a{
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    color: white;
+    margin: 30px;
+}
