@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
-import Foodlogo from '../../WebAssests/Logo/foodie_Logo_pos-768x275.png'
+import Foodlogo from '../../WebAssests/img/logo.png'
 import search from '../../WebAssests/Logo/Screenshot 2025-10-30 110852.png';
 const Header=()=>{
     return<>
@@ -19,9 +19,7 @@ const Header=()=>{
         </ul>
     </div>
 
-    <div className='right'>
-        <img src={search}></img>
-    </div>
+    
     </>
 }
 

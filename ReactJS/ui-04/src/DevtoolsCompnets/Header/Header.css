@@ -1,0 +1,30 @@
+
+.A{
+    height: 100px;
+    width: 25%;
+    float: left;
+    background-color: red;
+}
+
+.B{
+    height: 100px;
+    width: 75%;
+    float: left;
+    background-color: purple;
+}
+
+.Navbar1 li {
+    list-style-type: none;
+    float: left;
+    
+
+}
+
+.Navbar1 li a{
+
+    margin-top: 15px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+
+}

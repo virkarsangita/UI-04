@@ -1,0 +1,9 @@
+.body{
+    height: 400px;
+    width: 100%;
+    float: left;
+    background-color: cyan;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
