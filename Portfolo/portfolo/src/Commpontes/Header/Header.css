@@ -1,0 +1,38 @@
+
+.Head{
+   background-color: #0f1750;
+   height: 100px;
+   width: 100%;
+   float: left;
+}
+
+.left{
+    height: 100px;
+    width: 25%;
+    float: left;
+    background-color: #0f1766;
+}
+
+.left h3{
+    color: white;
+    margin: 20px;
+}
+
+.right{
+    height: 100px;
+    width: 75%;
+    float: left;
+    background-color:#0f1766 ;
+}
+
+
+
+.navbar li{
+    list-style-type: none;
+    margin: 20px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
